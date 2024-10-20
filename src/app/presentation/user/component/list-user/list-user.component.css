@@ -1,0 +1,38 @@
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-field {
+    width: 50%;
+  }
+  .avatar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  /* Center the spinner */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Optional: Add a custom animation to the spinner container */
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.loading-container {
+  animation: fadeInOut 2s infinite;  /* Custom animation for the spinner */
+}
+
+  
