@@ -15,12 +15,19 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
+import { MenueComponent } from '../../shard/menu/menue.component';
+import { FooterComponent } from '../../shard/footer/footer.component';
+import { HeaderComponent } from '../../shard/header/header.component';
 
 @NgModule({
   declarations: 
   [
     ListUserComponent,
-    UserProfileDialogComponent
+    UserProfileDialogComponent,
+    MenueComponent,
+    FooterComponent,
+    HeaderComponent
+
   ],
   imports: [
     CommonModule,

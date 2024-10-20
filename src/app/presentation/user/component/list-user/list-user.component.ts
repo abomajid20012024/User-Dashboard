@@ -45,8 +45,8 @@ export class ListUserComponent implements OnInit {
       })
     ).subscribe({
       complete: () => {
-        this.loading = false;
-        console.log('Users fetching completed');
+        this.loading = false;//can be put true if we want to show loading when the user is fetching
+
         console.log(this.users);
         this.tempUsers = this.users;  
       }
